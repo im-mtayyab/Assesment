@@ -1,0 +1,72 @@
+header {
+    position: relative;
+    justify-content: center;
+}
+
+.header-content {
+    position: relative;
+    width: 60vw;
+    color: #fff;
+    left: 4%;
+}
+
+.header-content a {
+    padding: 5px 10px;
+    color: #1D4BB6;
+    background: #fff;
+    width: 90%;
+}
+
+header::before , header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    opacity: 1;
+}
+
+header::before {
+    left: 0;
+    background: url('../../../assets/Gallery/header-before.png') no-repeat left/ 100% 100%;
+    width: 100vw;
+    opacity: 1;
+    z-index: -1;
+}
+
+header::after {
+    right: 0;
+    background: url('../../../assets/Gallery/header-after.png') no-repeat left/ 100% 100%;
+    width: 60vw;
+    opacity: 1;
+    z-index: -2;
+}
+
+@media only screen and (max-width: 1000px) {
+    header {
+        background: #000;
+        justify-content: flex-start;
+        padding-top: 25px;
+    }
+    header::before {
+        height: 35vh;
+        z-index: 6;
+        top: 45vh;
+        background: url('../../../assets/Gallery/header-before-mob.png') no-repeat left/ cover;
+    }
+    header::after {
+        height: 45vh;
+        left: 0;
+        width: 100%;
+        top: 45vh;
+        z-index: 5;
+    }
+    .header-content {
+        justify-content: center;
+        align-items: center;
+        padding: 0 25px;
+        z-index: 100;
+        width: 100%;
+        height: 50vh;
+        left: 0;
+    }
+}

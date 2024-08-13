@@ -1,0 +1,46 @@
+.feature-card {
+    display: grid;
+    gap: .5rem;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(1, 0, 0, 0.5);
+}
+
+.menu-list {
+    display: grid;
+    gap: .5rem;
+}
+
+.credit-card-cta {
+    gap: 3px;
+}
+
+.max-width {
+    width: 80%;
+}
+
+.detail {
+    padding-top: 1rem;
+}
+
+/* @media only screen and (max-width: 800px) {
+    .credit-card-image {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .credit-card-image {
+        height: auto;
+        width: 60vw;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .credit-card-image {
+        height: auto;
+        width: 30%;
+    }
+} */

@@ -1,0 +1,17 @@
+.previous img {
+    transform: rotate(180deg);
+}
+
+.swiper-button-disabled img {
+    filter: invert(50%) sepia(0%) saturate(1000%) hue-rotate(0deg) brightness(90%) contrast(80%);
+}
+
+.swiper-pagination-two .visited, .swiper-pagination-one .visited {
+	background: #1D4BB6;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #0095DB;
+}

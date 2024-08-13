@@ -1,0 +1,16 @@
+.menu-list-item {
+    border-bottom: 2px solid #000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-list-item img {
+    height: 18px;
+    width: 18px;
+}
+
+.menu-list-item a {
+    color: #000;
+}

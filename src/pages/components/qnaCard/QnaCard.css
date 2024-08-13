@@ -1,0 +1,53 @@
+.qna-button {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background: #fff;
+    color: #000;
+    width: 45vw;
+    height: auto;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(1, 0, 0, 0.5);
+    padding: 10px;
+    border: none;
+
+}
+
+.rotation img {
+    transform: rotate(90deg);
+    filter: brightness(0) invert(1);
+}
+
+.qna-button .qna-q, .qna-button span, .menu-content, .menu-button span {
+    place-self: center;
+}
+
+.qna-q {
+    width: 90%;
+}
+.qna-button span, .menu-button span {
+    justify-self: end;
+}
+
+.qna-button .qna-q, .menu-heading {
+    justify-self: start;
+    text-align: justify;
+}
+
+.qna-content {
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+}
+
+.qna-opened, .qna-content {
+    background: #1D4BB6;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+@media only screen and (max-width: 700px) {
+    .qna-button {
+        width: 80vw;
+    }
+}

@@ -1,0 +1,24 @@
+.item {
+    place-self: center;
+    background-color: #fff;
+    /* pad/ding: 30%; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.menu-btn {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    background: #fff;
+}
+
+.back-blue {
+    background: #0095DB;
+    color: #fff;
+}

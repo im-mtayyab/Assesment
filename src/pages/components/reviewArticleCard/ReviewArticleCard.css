@@ -1,0 +1,58 @@
+.large-article-card {
+    display: grid;
+    grid-template-rows: auto auto;
+    border: 2px solid white;
+    height: 100%;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(1, 0, 0, 0.5);
+}
+
+.review-article-card-content {
+    padding-left: 50px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 5%;
+}
+
+.article-image {
+    width: 90%;
+    height: 100%;
+}
+
+.card-image::before {
+    content: "Hello World";
+    left: 0;
+    z-index: 1;
+    color: #fff;
+    background: #F58323;
+}
+
+.date {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 400px) {
+    .date {
+        position: relative;
+        top: -5%;
+        left: 65%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .large-article-card {
+        justify-self: center;
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,19 @@
+.calculator-card {
+    display: grid;
+    grid-template-rows: 70% auto;
+    border: 2px solid white;
+    width: 95%;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(1, 0, 0, 0.5);
+}
+
+.calculator-content {
+    padding: 25px;
+    width: 100%;
+}
+
+.calculator-content img {
+    width: 100%;
+    height: 100%;
+}

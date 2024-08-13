@@ -1,0 +1,30 @@
+.article-card {
+    position: relative;
+    padding: 45px 25px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(1, 0, 0, 0.5);
+}
+
+.category-tag, .card-image::before {
+    position: absolute;
+    left: -2px;
+    color: #fff;
+    background: #F58323;
+    padding: 0rem .5rem;
+}
+
+.card-image::before {
+    content: "Hello World";
+    top: 70%;
+    left: 5%;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 400px) {
+    .card-image::before {
+        top: 60%;
+    }
+}
+
